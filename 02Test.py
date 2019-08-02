@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 #
 #-----------------------------------------------------------------------------------------------------------
-# Name:         01ThreadCounter.py
-# Purpose:      Simple thread counter
+# Name:         01Test.py
+# Purpose:      This module is only for testing
 #
 # Author:       Gabriel Marti Fuentes
 # email:        gabimarti at gmail dot com

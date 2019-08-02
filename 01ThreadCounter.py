@@ -49,10 +49,10 @@ average_sleep = 0                                                       # Averag
 ########################################################
 
 # Wait for the indicated time in milliseconds
-def delay_miliseconds(milisec):
-    if milisec == 0:
+def delay_milliseconds(millisec):
+    if millisec == 0:
         return None                     # Avoid making unnecessary call to time.sleep function
-    time.sleep(milisec/1000)
+    time.sleep(millisec/1000)
 
 
 # Wait a random time
@@ -121,7 +121,7 @@ def main():
         thread_handler = threading.Thread(target=do_something, args=(t_id, max_random_sleep, verbose))
         thread_handler.start()
         thread_list.append(thread_handler)
-        delay_miliseconds(delay_threads)                # delay between threads
+        delay_milliseconds(delay_threads)               # delay between threads
 
     if verbose >= 1:
         print('Finished threads launch.')
@@ -137,7 +137,7 @@ def main():
     average_sleep = total_sleep_seconds / thread_counter
     print('Performed %d threads in %6.2f seconds ' % (thread_counter, totaltime))
     print('Current active threads %d' % (thread_active_counter))
-    print('Total sleep %d (shared)seconds for all process' %(total_sleep_seconds))
+    print('Total sleep %d (shared) seconds for all process' %(total_sleep_seconds))
     print('Average sleep %6.2f seconds' % (average_sleep))
 
 

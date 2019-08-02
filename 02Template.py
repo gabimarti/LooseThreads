@@ -2,8 +2,9 @@
 # -*- coding: utf-8 -*-
 #
 #-----------------------------------------------------------------------------------------------------------
-# Name:         01Test.py
-# Purpose:      This module is only for testing
+# Name:         02Template.py
+# Purpose:      This is a copy of 01ThreadCounter.py
+#               saved as a template for other modules
 #
 # Author:       Gabriel Marti Fuentes
 # email:        gabimarti at gmail dot com
@@ -87,6 +88,7 @@ def parse_params():
     return args
 
 
+# Main
 def main():
     global max_threads, delay_threads, verbose, max_random_sleep
 

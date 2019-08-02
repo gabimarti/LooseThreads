@@ -9,7 +9,8 @@
 # email:        gabimarti at gmail dot com
 # GitHub:       https://github.com/gabimarti
 # Created:      02/08/2019
-# Revision:     02/08/2019  by foratnegre  :    Some improvements in the code.
+# Version:      1.0
+# Revision:
 # License:      MIT
 #-----------------------------------------------------------------------------------------------------------
 #
@@ -96,6 +97,7 @@ def parse_params():
     return args
 
 
+# Main
 def main():
     global max_threads, delay_threads, verbose, max_random_sleep
 

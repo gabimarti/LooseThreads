@@ -9,6 +9,7 @@
 # email:        gabimarti at gmail dot com
 # GitHub:       https://github.com/gabimarti
 # Created:      02/08/2019
+# Revision:     02/08/2019  by foratnegre  :    Some improvements in the code.
 # License:      MIT
 #-----------------------------------------------------------------------------------------------------------
 #

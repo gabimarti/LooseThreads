@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-#-----------------------------------------------------------------------------------------------------------
-# Name:         02Template.py
-# Purpose:      This is a copy of 01ThreadCounter.py
+# -----------------------------------------------------------------------------------------------------------
+# Name:         00Template.py
+# Purpose:      This is a copy of an early version of 01ThreadCounter.py
 #               saved as a template for other modules
 #
 # Author:       Gabriel Marti Fuentes
@@ -11,7 +11,7 @@
 # GitHub:       https://github.com/gabimarti
 # Created:      02/08/2019
 # License:      MIT
-#-----------------------------------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------------------------------------
 #
 
 import argparse
@@ -22,7 +22,7 @@ import time
 ########################################################
 # CONSTANTS
 ########################################################
-DESCRIPTION = 'A simple thread counter'
+DESCRIPTION = 'Template_Description'
 EPILOG = 'What do you want me to tell you?'
 MAXTHREADS = 10000
 DELAYBETWEENTHREADS = 0                                                 # Milliseconds of delay between threads
